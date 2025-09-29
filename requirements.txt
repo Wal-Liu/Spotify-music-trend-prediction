@@ -1,0 +1,17 @@
+# Jupyter Notebook
+notebook
+jupyterlab
+ipykernel
+
+# EDA & xử lý dữ liệu
+pandas
+numpy
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# kaggle 
+kagglehub

@@ -8,6 +8,7 @@ pandas
 numpy
 matplotlib
 seaborn
+sketch
 
 # Machine Learning
 scikit-learn

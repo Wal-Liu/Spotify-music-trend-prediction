@@ -15,6 +15,9 @@ Dataset source: [Top Spotify Songs (Daily Updated, 73 Countries) – Kaggle](htt
   - **Audio Features (Spotify API):** `danceability`, `energy`, `valence`, `acousticness`, `instrumentalness`, `tempo`, `loudness`, `speechiness`, `duration_ms`, `is_explicit`, etc.
 
 ---
+## Download 2025 Songs Data
+To download 2025 songs data, run the `download_data.ipynb` notebook.
+
 
 ## 🎯 Project Objectives
 1. **Cluster Global Music Trends**  
@@ -66,4 +69,5 @@ Dataset source: [Top Spotify Songs (Daily Updated, 73 Countries) – Kaggle](htt
 - Insights on audio features that drive popularity.  
 - A classification system for hit detection (Top 10/Top 50).  
 - Models predicting lifecycle & rank evolution of songs.  
+
 

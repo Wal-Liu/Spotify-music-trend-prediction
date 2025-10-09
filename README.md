@@ -15,8 +15,11 @@ Dataset source: [Top Spotify Songs (Daily Updated, 73 Countries) – Kaggle](htt
   - **Audio Features (Spotify API):** `danceability`, `energy`, `valence`, `acousticness`, `instrumentalness`, `tempo`, `loudness`, `speechiness`, `duration_ms`, `is_explicit`, etc.
 
 ---
-## Download 2025 Songs Data
+## How to run the project
+### Download 2025 Songs Data
 To download 2025 songs data, run the `download_data.ipynb` notebook.
+### Preprocess Data
+To preprocess the data, run the `preprocess.ipynb` notebook.
 
 
 ## 🎯 Project Objectives

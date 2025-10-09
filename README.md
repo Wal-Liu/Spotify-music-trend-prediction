@@ -18,8 +18,10 @@ Dataset source: [Top Spotify Songs (Daily Updated, 73 Countries) – Kaggle](htt
 ## How to run the project
 ### Download 2025 Songs Data
 To download 2025 songs data, run the `download_data.ipynb` notebook.
+Raw data name is `2025_spotify_songs.csv` and it is stored in the `data` folder.
 ### Preprocess Data
 To preprocess the data, run the `preprocess.ipynb` notebook.
+Cleaned data name is `2025_spotify_songs_cleaned.csv` and it is stored in the `data` folder.
 
 
 ## 🎯 Project Objectives

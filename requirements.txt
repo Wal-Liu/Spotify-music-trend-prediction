@@ -10,9 +10,8 @@ matplotlib
 seaborn
 sketch
 
-# Machine Learning
-scikit-learn
-xgboost
-
 # kaggle 
 kagglehub
+
+scikit-learn
+xgboost

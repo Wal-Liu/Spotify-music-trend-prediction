@@ -7712,7 +7712,7 @@ window.addEventListener("load", function() {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">spark</span> <span class="o">=</span> <span class="p">(</span>
@@ -7745,6 +7745,35 @@ window.addEventListener("load", function() {
 <pre>Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
 25/10/20 14:04:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 33374)
+Traceback (most recent call last):
+  File "/opt/bitnami/python/lib/python3.12/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/opt/bitnami/python/lib/python3.12/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+  File "/opt/bitnami/python/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/opt/bitnami/python/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/opt/bitnami/spark/python/pyspark/accumulators.py", line 295, in handle
+    poll(accum_updates)
+  File "/opt/bitnami/spark/python/pyspark/accumulators.py", line 267, in poll
+    if self.rfile in r and func():
+                           ^^^^^^
+  File "/opt/bitnami/spark/python/pyspark/accumulators.py", line 271, in accum_updates
+    num_updates = read_int(self.rfile)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/bitnami/spark/python/pyspark/serializers.py", line 596, in read_int
+    raise EOFError
+EOFError
+----------------------------------------
 </pre>
 </div>
 </div>
@@ -20342,7 +20371,7 @@ R^2: 0.8112247212386894
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.-So-s%C3%A1nh-2-m%C3%B4-h%C3%ACnh-Random-Forest-v%C3%A0-XGBoost">3. So sánh 2 mô hình Random Forest và XGBoost<a class="anchor-link" href="#3.-So-s%C3%A1nh-2-m%C3%B4-h%C3%ACnh-Random-Forest-v%C3%A0-XGBoost">¶</a></h3>
+<h3 id="3.-Compare-Random-Forest-and-XGBoost">3. Compare Random Forest and XGBoost<a class="anchor-link" href="#3.-Compare-Random-Forest-and-XGBoost">¶</a></h3>
 </div>
 </div>
 </div>
